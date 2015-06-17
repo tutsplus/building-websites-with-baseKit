@@ -1,0 +1,10 @@
+{
+	"name":"Nicolas",
+	"thumbnail":"nicolas.png",
+	"widgetVersion":2,
+	"images": [
+		"images/feature.png",
+		"images/logo.png",
+		"images/content-image.png"
+	]
+}

@@ -1,0 +1,30 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>{{ page.title }}</title>
+
+		{% include basekit.headScript %}
+	</head>
+	<body>
+
+		<div class="container">
+
+			{% include 'includes/header.twig' %}
+
+			{% include 'includes/feature.twig' %}
+
+			<main class="main">
+
+				{{ zone('main')|raw }}
+
+			</main>
+
+			{% include 'includes/footer.twig' %}
+
+		</div>
+
+		{% include basekit.bodyScript %}
+
+	</body>
+</html>

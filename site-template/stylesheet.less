@@ -1,0 +1,152 @@
+/* BK LESS Framework */
+@import "@{templateCommon}/bk-less-framework.less";
+
+
+/* General styles */
+body {
+	margin: 0;
+	padding: 0;
+	color: @color-swatch5;
+	background: @color-swatch1;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+a {
+	color: @color-swatch2;
+}
+
+hr {
+	height: 2px;
+	border: 0;
+	background-color: @color-swatch3;
+}
+
+
+/* Site content */
+.container {
+	max-width: 960px;
+	padding: 0 20px 40px;
+	margin: 0 auto;
+}
+
+.content-image {
+	float: right;
+	margin: 0 0 10px 20px;
+	width: 50%;
+	height: auto;
+}
+
+figure {
+	margin: 0;
+}
+
+
+/* Reset elements */
+.header ul,
+.footer ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+.header li,
+.footer li {
+	position: relative;
+}
+
+.header,
+.footer {
+	text-align: center;
+	clear: both;
+}
+
+
+/* Header */
+.header {
+	padding-top: 20px;
+	background-color: @color-swatch7;
+}
+
+.logo-image {
+	display: inline;
+}
+
+.navigation {
+	margin-bottom: 10px;
+	background-color: @color-swatch3;
+}
+
+.navigation-item:hover {
+	background-color: darken(@color-swatch3, 10%);
+}
+
+.navigation .item-name {
+	color: @color-swatch6;
+	padding: 8px 10px;
+	display: inline-block;
+	cursor: pointer;
+}
+
+.navigation-list--children {
+	position: absolute;
+	left: 0;
+	display: none;
+}
+
+.navigation-item:hover .navigation-list--children {
+	background-color: @color-swatch3;
+}
+
+@media (min-width: 767px) {
+	.navigation-toggle {
+		display: none;
+	}
+}
+
+/* Feature */
+.feature {
+	background-color: @color-swatch2;
+	text-align: center;
+	margin: 0 0 20px;
+}
+
+.feature h2,
+.feature h3 {
+		color: @color-swatch6;
+}
+
+.content-wrap {
+	padding: 6em 0 6.5em;
+}
+
+
+/* Footer */
+.social-icons {
+	margin-top: 40px;
+}
+
+.social-icons span {
+	display: none;
+}
+
+.social-icons .icon:before {
+	margin-right: 0;
+}
+.social-icons a {
+	background-color: @color-swatch3;
+	color: @color-swatch6;
+	padding: 6px;
+	display: inline-block;
+	min-width: 27px;
+	border-radius: 15px;
+	margin: 8px;
+}
+
+.social-icons a:hover {
+	text-decoration: none;
+	background-color: darken(@color-swatch3, 10%);
+}

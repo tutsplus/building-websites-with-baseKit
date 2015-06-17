@@ -1,0 +1,19 @@
+			<header class="header">
+
+				{{widget('logo', 'sitelogo', {
+					"defaultlogo": asset('images/logo.png')
+				})|raw}}
+
+				{{widget('profile', 'companyname', {
+					"profileType": "business",
+				})|raw}}
+
+				<div class="navigation">
+
+					{{widget('extendednavigation', 'navigation', {
+						"align": "center"
+					})|raw}}
+
+				</div>
+
+			</header>
