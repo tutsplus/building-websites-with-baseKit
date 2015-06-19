@@ -6,5 +6,116 @@
 		"images/feature.png",
 		"images/logo.png",
 		"images/content-image.png"
-	]
+	],
+	"pageTypes": [
+		"home"
+	],
+	"colorSwatches": {
+		"Swatch 1": {
+			"color1": "#ffffff",
+			"color2": "#4d394b",
+			"color3": "#4c9689",
+			"color4": "#555555",
+			"color5": "#333333",
+			"color6": "#ffffff",
+			"color7": "#ffffff"
+		},
+		"Swatch 2": {
+			"color1": "#ffffff",
+			"color2": "#11a362",
+			"color3": "#d14836",
+			"color4": "#555555",
+			"color5": "#333333",
+			"color6": "#ffffff",
+			"color7": "#ffffff"
+		}
+	},
+	"fontSwatch": {
+		"title": "Droid Serif",
+		"font1": {
+			"font-family": "\"Droid Sans\", Helvetica, Arial, sans-serif",
+			"font-size": "28px",
+			"font-weight": "400",
+			"line-height": "34px",
+			"color": "@color-swatch4",
+			"letter-spacing": "inherit"
+		},
+		"font2": {
+			"font-family": "\"Droid Sans\", Helvetica, Arial, sans-serif",
+			"font-size": "22px",
+			"font-weight": "400",
+			"line-height": "30px",
+			"color": "@color-swatch4",
+			"letter-spacing": "inherit"
+		},
+		"font3": {
+			"font-family": "\"Droid Sans\", Helvetica, Arial, sans-serif",
+			"font-size": "20px",
+			"font-weight": "400",
+			"line-height": "inherit",
+			"color": "@color-swatch4",
+			"letter-spacing": "inherit"
+		},
+		"font4": {
+			"font-family": "\"Droid Sans\", Georgia, serif",
+			"font-size": "18px",
+			"font-weight": "700",
+			"line-height": "24px",
+			"color": "@color-swatch4",
+			"letter-spacing": "inherit"
+		},
+		"font5": {
+			"font-family": "\"Droid Sans\", Georgia, serif",
+			"font-size": "14px",
+			"font-weight": "inherit",
+			"line-height": "24px",
+			"color": "@color-swatch5",
+			"letter-spacing": "inherit"
+		},
+		"font6": {
+			"font-family": "\"Droid Sans\", Helvetica, Arial, sans-serif",
+			"font-size": "12px",
+			"font-weight": "400",
+			"line-height": "20px",
+			"color": "@color-swatch6",
+			"color-hover": "@color-swatch6",
+			"letter-spacing": "inherit",
+			"background-color": "@color-swatch7",
+			"background-color-hover": "lighten(@color-swatch7, 3%)"
+		},
+		"font7": {
+			"font-family": "\"Droid Sans\", Helvetica, Arial, sans-serif",
+			"font-size": "14px",
+			"font-weight": "400",
+			"line-height": "24px",
+			"color": "@color-swatch6",
+			"letter-spacing": "inherit",
+			"background-color": "@color-swatch3",
+			"background-color-hover": "darken(@color-swatch3,10%)"
+		},
+		"font8": {
+			"font-family": "\"Droid Sans\", Helvetica, Arial, sans-serif",
+			"font-size": "48px",
+			"font-weight": "700",
+			"line-height": "58px",
+			"color": "@color-swatch6",
+			"letter-spacing": "inherit"
+		},
+		"font9": {
+			"font-family": "\"Droid Sans\", Helvetica, Arial, sans-serif",
+			"font-size": "28px",
+			"font-weight": "400",
+			"line-height": "34px",
+			"color": "@color-swatch6",
+			"letter-spacing": "inherit"
+		},
+		"font10": {
+			"font-family": "\"Droid Sans\", Helvetica, Arial, sans-serif",
+			"font-size": "24px",
+			"font-weight": "300",
+			"line-height": "29px",
+			"color": "@color-swatch6",
+			"letter-spacing": "inherit"
+		}
+	}
 }
